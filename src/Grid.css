@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 2px;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+  
+  .cell {
+    width: 100%;
+    aspect-ratio: 1;
+    transition: background-color 0.2s, opacity 0.2s;
+  }
+  
